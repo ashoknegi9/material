@@ -1,0 +1,6 @@
+material.weather:
+  title: 'Weather Today'
+  description: 'Displays Weather in your geographical location'
+  parent: main
+  menu_name: main
+  route_name: material.weather_route

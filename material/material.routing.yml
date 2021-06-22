@@ -1,0 +1,15 @@
+material.weather_route:
+  path: '/weather-today'
+  defaults:
+    _controller: '\Drupal\material\Controller\showWeather::getWeather'
+    _title: 'See weather in your geographical area'
+  requirements:
+    _permission: 'access content'
+
+material.weather_route_form:
+  path: '/weather'
+  defaults:
+    _form: '\Drupal\material\Form\showWeatherForm'
+    _title: 'See weather in your geographical area'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,3 @@
+services:
+  material.weather_service:
+    class: Drupal\material\weatherService

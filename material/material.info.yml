@@ -1,0 +1,6 @@
+name: 'material'
+type: module
+description: 'Custom module weather api integration'
+core: 8.x
+package: 'Custom'
+core_version_requirement: ^8 || ^9
